@@ -12,6 +12,8 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
+    @IBOutlet weak var labelText: NSTextField!
+    @IBOutlet weak var numberText: NSTextField!
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
